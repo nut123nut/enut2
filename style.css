@@ -1,0 +1,32 @@
+*{
+  box-sizing: border-box;
+  font-family: fantasy;
+}
+body {
+  background-color: rgb(255, 196, 77);
+  color: rgb(9, 9, 9);
+  text-align: center;
+}
+
+
+div.gallery {
+  margin: 10px;
+  border: 1px solid #000000;
+  float: left;
+  width: 180px;
+}
+div.gallery:hover {
+  border: 5px solid ;
+}
+
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 10px;
+  text-align: center;
+}
+ 
